@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>[Richard Buchanan] – Mini Portfolio</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <meta name="description" content="[1–2 sentence summary of you and your interests]">
+</head>
+<body id="top">
+  <header class="site-header">
+    <nav class="nav container" aria-label="Primary">
+      <a class="logo" href="#top">[Your Name]</a>
+      <ul class="nav-list">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact" class="btn">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="content">
+    <section id="hero" class="hero container">
+      <div class="hero-text">
+        <h1>[Your Name]</h1>
+        <p class="tagline">I am a 17 year old software developer</p>
+        <a class="btn" href="#projects">See my work</a>
+      </div>
+      <div class="hero-media">
+        <img src="images/headshot.png" alt="Portrait of Richard Buchanan">
+      </div>
+    </section>
+
+    <section id="about" class="container">
+      <header><h2>About</h2></header>
+      <article class="about-grid">
+        <p>I love sports and learning new things im a very hard worker when giving a task i will try my hardest to get it done </p>
+        <div>
+          <h3>Skills</h3>
+          <ul class="pill-list">
+            <li>HTML</li><li>CSS</li><li>JavaScript</li>
+            <li>C# Asp.Net developer</li>
+          </ul>
+        </div>
+      </article>
+    </section>
+
+    <section id="projects" class="container">
+      <header><h2>Projects</h2></header>
+      <div class="grid">
+        <article class="card">
+          <img src="images/project1.png" alt="Screenshot of Project 1">
+          <div class="card-body">
+            <h3>Project One</h3>
+            <p>[1–2 sentence description of purpose + your role.]</p>
+            <a class="btn-outline" href="https://github.com/richi2008-jag/asp.net-plant-app" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="images/project2.png" alt="Screenshot of Project 2">
+          <div class="card-body">
+            <h3>Project Two</h3>
+            <p>[1–2 sentence description of purpose + your role.]</p>
+            <a class="btn-outline" href="https://github.com/richi2008-jag/SkillMingleNew" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="container">
+      <header><h2>Contact</h2></header>
+      <address>
+        <p>Email: <a href="mailto:[rbuchanan206@gmail.com]">rbuchanan206@gmail.com</a></p>
+        <p>GitHub: <a href="https://github.com/richi2008-jag" target="_blank" rel="noopener">@[your-username]</a></p>
+      </address>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <small>© <span id="year"></span> Richard Buchanan. Built with semantic HTML & external CSS.</small>
+  </footer>
+
+  <script>
+    // Tiny progressive enhancement: set year
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
